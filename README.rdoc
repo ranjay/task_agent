@@ -8,9 +8,13 @@ for task list,create new task and delete task.
 
 Staus F means "FREE" ,O means "Occcupied"
 
+Backend URL https://task-agent-app.herokuapp.com/tasks.json 
+&& https://task-agent-app.herokuapp.com/agent_lists.json
+It will aceept all CRUD operation.
+
 
 ########
-Step to etup local instance:
+Step to setup local instance:
 
 1. clone from https://github.com/ranjay/task_agent
 2. cd task_agent 
