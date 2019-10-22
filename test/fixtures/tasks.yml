@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  skills: MyString
+  status: MyString
+  priority: MyString
+  current_agent: MyString
+
+two:
+  name: MyString
+  skills: MyString
+  status: MyString
+  priority: MyString
+  current_agent: MyString

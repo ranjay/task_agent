@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @agent_list.name %>
+</p>
+
+<p>
+  <strong>Skills:</strong>
+  <%= @agent_list.skills %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @agent_list.status %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @agent_list.priority %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @agent_list.status %>
+</p>
+
+<p>
+  <strong>Last task time:</strong>
+  <%= @agent_list.last_task_time %>
+</p>
+
+<%= link_to 'Edit', edit_agent_list_path(@agent_list) %> |
+<%= link_to 'Back', agent_lists_path %>
